@@ -1,3 +1,4 @@
+//Getting response from data base using api
 const checkCountry= () =>{
     url='https://restcountries.com/v3.1/all'
     fetch(url)
@@ -11,7 +12,6 @@ const displayCountries= data =>{
     // console.log(data)
     const allCountry=document.getElementById('all-country')
     data.forEach(country => {
-       
         const div=document.createElement('div');
         div.classList.add('country');
         div.innerHTML=
@@ -24,8 +24,6 @@ const displayCountries= data =>{
         <img src="${country.flags.png}" alt="">
         <img src="${country.coatOfArms.png}" alt="">
         `
-        allCountry.appendChild(div)
-    
+        allCountry.appendChild(div);
     });
-
 }

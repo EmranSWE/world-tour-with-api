@@ -1,6 +1,9 @@
+body{
+background-color: aliceblue; 
+}
 #all-country{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr); 
 }
 
 h2{
