@@ -1,0 +1,20 @@
+#all-country{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+h2{
+    text-align: center;
+}
+.country{
+    background-color: rgb(67, 234, 200);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.country img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 5%;
+}
